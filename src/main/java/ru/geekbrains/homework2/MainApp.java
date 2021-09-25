@@ -5,7 +5,7 @@ public class MainApp {
     public static void main(String[] args) {
         System.out.println(checkSum(1, 15));
         checkSign(5);
-        System.out.println(booleanSign(10));
+        System.out.println(booleanSignNegative(-10));
         printString("Привет!", 3);
         System.out.println(tellYear(2020));
     }
@@ -22,8 +22,8 @@ public class MainApp {
         }
     }
 
-    public static boolean booleanSign(int a) {
-        return (a >=0);
+    public static boolean booleanSignNegative(int a) {
+        return (a < 0);
     }
 
     public static void printString(String text, int a) {
