@@ -28,16 +28,4 @@ public class Human implements RunJump {
         System.out.println("Hello, my name is " + name + ". I can run at once up to " + max_dist + " m. and jump up to " + max_height + " cm.");
     }
 
-//    @Override
-//    public void run(Track track) {
-//        System.out.println(name + " attempted to run " + track.getDist() + " m.");
-//        System.out.println("At once they can probably run " + max_dist + " m.");
-//    }
-//
-//    @Override
-//    public void jump (Wall wall) {
-//        System.out.println(name + " attempted to jump up " + wall.getHeight() + " cm.");
-//        System.out.println("At best they can jump up to " + max_dist + " cm.");
-//    }
-
 }
