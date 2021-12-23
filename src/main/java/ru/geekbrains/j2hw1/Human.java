@@ -27,4 +27,5 @@ public class Human implements RunJump {
     public void ready() {
         System.out.println("Hello, my name is " + name + ". I can run at once up to " + max_dist + " m. and jump up to " + max_height + " cm.");
     }
+
 }

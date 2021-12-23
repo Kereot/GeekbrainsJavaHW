@@ -26,4 +26,5 @@ public class Cat implements RunJump {
     public void ready() {
         System.out.println("I'm a cat, my name is " + name + ". I can run at once up to " + max_dist + " m. and jump up to " + max_height + " cm.");
     }
+
 }
